@@ -1,0 +1,562 @@
+main {
+    padding: 0 30px 0 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main .assistencia_image {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+}
+
+.main .assistencia_image .text_assist {
+    width: 44%;
+}
+
+.main .assistencia_image .image_assist {
+    width: 56%; 
+    position: relative;
+}
+
+.main .assistencia_image .text_assist h1 {
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.main .assistencia_image .text_assist .text_thebest {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.main .assistencia_image .text_assist button {
+    width: 292px;
+    height: 62px;
+    border-radius: 40px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #7CDBFE;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.main .whatsapp {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: green;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    z-index: 15;
+    cursor: pointer;
+}
+
+.main .whatsapp:hover {
+    opacity: 0.5;
+    transition: opacity .2s;
+}
+
+.back_image {
+    background: #7CDBFE;
+    width: 410px;
+    height: 526px;
+    border-radius: 10px;
+    margin-left: auto;
+    position: relative;
+}
+
+.back_image img {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: -60px;
+}
+
+.google {
+    width: 262px;
+    height: 78px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    z-index: 10;
+    top: 25px;
+    right: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.image_assist .google .text_google {
+    display: flex;
+    flex-direction: column;
+}
+
+.image_assist .google .text_google span:first-child {
+    color: #A9A7B6;
+    font-size: 12px;
+}
+
+.image_assist .google .text_google span {
+    margin: 5px 0;
+}
+
+.image_assist .google .text_google span i {
+    margin-right: 5px;
+    color: #DFDF1F;
+}
+
+.image_assist .google button {
+    width: 64px;
+    height: 28px;
+    background: #7CDBFE;
+    border-radius: 40px;
+    border: 0;
+    cursor: pointer;
+}
+
+.location {
+    width: 146px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 9px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 30px;
+    right: 350px;
+}
+
+.location span:first-child {
+    font-size: 14px;
+    color: #A9A7B6;
+}
+
+.location span:last-child {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.location span:last-child i {
+    font-size: 18px;
+    margin-right: 8px;
+    color: #7CDBFE;
+}
+
+.marcas {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.marcas h2 {
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.marcas .all_marcas {
+    width: 100%;
+    height: 100px;
+}
+
+.marcas .swiperSlide  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcas div img {
+    margin-right: 30px;
+}
+
+.marcas div span {
+    font-size: 30px;
+    color: #A6A6A6;
+    font-weight: bold;
+}
+
+.diferenciais {
+    width: 100%;
+    background: #F4F4F4;
+    margin-top: 35px;
+}
+
+.diferenciais .quais_diferenciais {
+    padding: 30px;
+    width: 100%;
+    max-width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+}
+
+.quais_diferenciais > div:first-child {
+    width: 55%;
+}
+
+.quais_diferenciais > div:last-child {
+    width: 45%;
+}
+
+.quais_diferenciais .text_diferenciais h2 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.quais_diferenciais .text_diferenciais p {
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.quais_diferenciais .text_diferenciais .perfil_google {
+    display: flex;
+    align-items: end;
+    margin-top: 70px;
+}
+
+.quais_diferenciais .text_diferenciais .perfil_google div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+.quais_diferenciais .text_diferenciais .perfil_google div i {
+    margin-right: 6px;
+    color: #FFC728;
+    font-size: 20px;
+}
+
+.quais_diferenciais .text_diferenciais .perfil_google div span {
+    margin: 8px 0;
+}
+
+.quais_diferenciais .text_diferenciais .perfil_google div .avaliation {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quais_diferenciais .text_diferenciais .perfil_google div span:last-child {
+    color: #A6A6A6;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quais_diferenciais .text_diferenciais .perfil_google button {
+    width: 250px;
+    height: 62px;
+    border-radius: 40px;
+    background: #7CDBFE;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text_quais div .img {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    margin-right: 20px;
+    box-shadow: 2px 2px 10px #00000016;
+}
+
+.text_quais div {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.text_quais h4 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.text_quais p {
+    width: 100%;
+    max-width: 400px;
+    color: #A6A6A6;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.main h3 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.swiper_a {
+    height: 450px;
+    margin-top: 70px;
+}
+
+.swiper_a .avaliation_swiper {
+    width: 361px;
+    height: 376px;
+    background: #7CDBFE;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.swiper_a .avaliation_swiper div {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.swiper_a .avaliation_swiper div > span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 17px;
+}
+
+.swiper_a .avaliation_swiper i {
+    color: #FFC728;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.swiper_a .avaliation_swiper img {
+    min-width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #fff;
+    margin-right: 15px;
+}
+
+.avaliation_text {
+    font-size: 20px;
+}
+
+.oferecemos {
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+}
+
+.oferecemos > div {
+    width: 50%;
+    padding: 10px;
+}
+
+.oque_oferecemos h2 {
+    font-size: 65px;
+}
+
+.oque_oferecemos .circle_check {
+    display: flex;
+    align-items: center;
+}
+
+.oque_oferecemos div {
+    margin-top: 30px;
+}
+
+.oque_oferecemos .circle_check span {
+    min-width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #7CDBFE;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.oque_oferecemos .circle_check p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.image_oferecemos {
+    position: relative;
+}
+
+.image_oferecemos .contact {
+    width: 304px;
+    height: 82px;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    top: 35px;
+    left: -35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.image_oferecemos .contact > img {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #bb2929;
+}
+
+.image_oferecemos .contact div {
+    display: flex;
+    flex-direction: column;
+}
+
+.image_oferecemos .contact div span {
+    margin: 5px 0;
+}
+
+.image_oferecemos .contact div span:last-child {
+    font-size: 12px;
+    color: #A6A6A6;
+}
+
+.image_oferecemos .contact div span:first-child {
+    font-size: 16px;
+}
+
+.image_oferecemos .contact button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #7CDBFE;
+    font-size: 17px;
+    border: 0;
+}
+
+.custo {
+    width: 323px;
+    height: 68px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 10px;
+    left: -35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custo span {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #7CDBFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7CDBFE;
+    border-radius: 50%;
+}
+
+.custo p {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1180px) {
+    .main .assistencia_image {
+        justify-content: center;
+    }
+
+    .main .assistencia_image .text_assist {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .main .assistencia_image .image_assist {
+        display: none;
+    }
+
+    .marcas h2 {
+        font-size: 30px;
+    }
+
+    .diferenciais .quais_diferenciais {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .diferenciais .quais_diferenciais > div {
+        width: 100%;
+    }
+
+    .diferenciais .text_quais {
+        margin: 0 auto;
+
+    }
+
+    .diferenciais .quais_diferenciais .text_diferenciais {
+        margin-bottom: 90px;
+    }
+
+    .diferenciais .quais_diferenciais > div p {
+        width: 100%;
+        max-width: none;
+    }
+
+    .oferecemos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oferecemos div {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .image_oferecemos {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .marcas h2 {
+        font-size: 20px;
+    }
+
+    .quais_diferenciais .text_diferenciais .perfil_google {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .quais_diferenciais .text_diferenciais .perfil_google  button {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .main .assistencia_image .text_assist h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .main .assistencia_image .text_assist .text_thebest {
+        font-size: 14px;
+    }
+    
+    .oferecemos .oque_oferecemos h2 {
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .marcas h2 {
+        font-size: 16px;
+    }
+}
