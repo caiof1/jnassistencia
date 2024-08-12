@@ -7,7 +7,6 @@ import Footer from '../../components/Footer/Footer'
 import {useEffect, useState} from 'react'
 
 import image from '../../images/man.png'
-import eletrolux from '../../images/Group 140.png'
 import activy from '../../images/activity 1.png'
 import command from '../../images/command 1.png'
 import piechart from '../../images/pie-chart 1.png'
@@ -64,8 +63,8 @@ const Home = () => {
       <Header />
       <section className={styles.assistencia_image}>
         <div className={styles.text_assist}>
-          <h1>Assistencia de Geladeira e Freezer</h1>
-          <p className={styles.text_thebest}>A melhor e mais bem avaliada assistencia tecnica de Geladeira e Freezer de Belo Horizonte, com mais de 5 anos de experiencia!</p>
+          <h1>Assistência de Geladeira e Freezer</h1>
+          <p className={styles.text_thebest}>A melhor e mais bem avaliada assistência técnica de Geladeira e Freezer de Belo Horizonte, com mais de 5 anos de experiencia!</p>
           <a href="https://contate.me/jnassistenciatecnica">
             <button>Entre em contato conosco!</button>
           </a>
@@ -79,7 +78,7 @@ const Home = () => {
                 4,9
               </span>
             </div>
-            <a href="https://maps.app.goo.gl/mAkTwEcgPxigupmu9" target="_blank">
+            <a href="https://maps.app.goo.gl/mAkTwEcgPxigupmu9">
               <button>Ver</button>
             </a>
           </div>
@@ -110,19 +109,19 @@ const Home = () => {
           className={styles.all_marcas}
         >
           <SwiperSlide className={styles.swiperSlide}>
-            <img src={eletrolux} alt=""/>
+            <i class="fa-solid fa-snowflake"></i>
             <span>Eletrolux</span>
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
-            <img src={eletrolux} alt=""/>
+            <i class="fa-solid fa-snowflake"></i>
             <span>Consul</span>
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
-            <img src={eletrolux} alt=""/>
+            <i class="fa-solid fa-snowflake"></i>
             <span>Brastemp</span>
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
-            <img src={eletrolux} alt=""/>
+            <i class="fa-solid fa-snowflake"></i>
             <span>Continental</span>
           </SwiperSlide>
         </Swiper>
@@ -145,7 +144,7 @@ const Home = () => {
               <span className={styles.avaliation}>4.9 / 5 avaliação</span>
               <span>Google</span>
             </div>
-            <a href="https://maps.app.goo.gl/mAkTwEcgPxigupmu9" target="_blank">
+            <a href="https://maps.app.goo.gl/mAkTwEcgPxigupmu9">
               <button>Perfil da JN no Google</button>
             </a>
           </div>
@@ -249,7 +248,7 @@ const Home = () => {
               <p>Álax Almeida</p>
             </span>
           </div>
-          <p className={styles.avaliation_text}>O técnico que veio foi super cordial, sincero e atencioso as dúvidas. Prestou o serviço com cuidado e resolveu o problema da Geladeira. Difícil acha profissionais na área que atenda as expectativas, toda vez que precisa sei onde ligar. Outra coisa o preço é um dos melhores que achei na pesquisa.
+          <p className={styles.avaliation_text}>O técnico que veio foi super cordial, sincero e atencioso as dúvidas. Prestou o serviço com cuidado e resolveu o problema da Geladeira. Difícil acha profissionais na área que atenda as expectativas
           </p>
           
         </SwiperSlide>
@@ -333,7 +332,7 @@ const Home = () => {
               <span>Julio</span>
               <span>Tecnico especializado</span>
             </div>
-            <a href="https://contate.me/jnassistenciatecnica" target="_blank">
+            <a href="https://contate.me/jnassistenciatecnica">
               <button><i class="fa-regular fa-comment"></i></button>
             </a>
           </div>

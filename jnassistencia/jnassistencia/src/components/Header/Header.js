@@ -1,6 +1,6 @@
 import styles from './Header.module.css';
 
-import Logo from '../../images/logo.jpeg'
+import Logo from '../../images/logo2.png'
 
 const Header = () => {
   return (
